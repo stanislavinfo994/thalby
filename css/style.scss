@@ -49,3 +49,63 @@ header{
     }
   }
 }
+.portfolio{
+  padding-top: 76px;
+  padding-bottom: 51px;
+}
+.features{
+  .col-md-4{
+    &:before{
+      content: "";
+      display: block;
+      margin: auto;
+      background-color: #21F7EC;
+      width: 70px;
+      height: 70px;
+      border-radius: 50%;
+      margin-bottom: 24px;
+    }
+    &:nth-child(2){
+      &:before {
+        background-color: #33D3BC;
+      }
+    }
+    &:nth-child(3){
+      &:before {
+        background-color: #18A5C6;
+      }
+    }
+    &:nth-child(4){
+      &:before {
+        background-color: #D38F62;
+      }
+    }
+    &:nth-child(5){
+      &:before {
+        background-color: #F94C43;
+      }
+    }
+    &:nth-child(6){
+      &:before {
+        background-color: #D399FF;
+      }
+    }
+  }
+}
+.faces{
+  h3{
+    margin-bottom: 290px;
+    text-align: center;
+  }
+  .grey_bg{
+    height: 480px;
+    background-color: #F0F0F0;
+    article{
+      position: relative;
+      top: -188px;
+    }
+    img{
+      width: 82%;
+    }
+  }
+}
