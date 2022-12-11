@@ -100,6 +100,9 @@ header{
   .grey_bg{
     height: 480px;
     background-color: #F0F0F0;
+    @include max-screen(767px){
+      height: auto;
+    }
     article{
       position: relative;
       top: -188px;

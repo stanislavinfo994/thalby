@@ -83,6 +83,11 @@ header .navbar-brand {
   height: 480px;
   background-color: #F0F0F0;
 }
+@media screen and (max-width: 767px) {
+  .faces .grey_bg {
+    height: auto;
+  }
+}
 .faces .grey_bg article {
   position: relative;
   top: -188px;
