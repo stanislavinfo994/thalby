@@ -103,6 +103,20 @@ header .navbar-brand {
   }
 }
 
+.main_banner .btn-primary {
+  background-color: #000000;
+  box-sizing: border-box;
+  border: 1px solid #000000;
+  border-radius: 100px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  color: #FFFFFF;
+  padding: 7px 23px 9px;
+}
+
 .best_sellers {
   padding-top: 60px;
   padding-bottom: 248px;
