@@ -12,6 +12,9 @@ header{
   .soc_header{
     list-style: none;
     align-items: flex-start;
+    @include max-screen(390px){
+      margin-left: -40px;
+    }
     li{
       &:first-of-type{
         margin-right: 15px;
@@ -21,7 +24,7 @@ header{
         margin-left: 7px;
       }
       &:nth-child(2){
-        padding-top: 2px
+        padding-top: 2px;
       }
     }
   }
@@ -130,6 +133,9 @@ header{
     text-align: center;
     color: #000000;
     margin-bottom: 27px;
+    @include max-screen(390px){
+      font-size: 30px;
+    }
   }
   p{
     font-family: 'Roboto',sans-serif;
@@ -145,6 +151,10 @@ header{
     border-color: #FFFFFF;
     img{
       margin-bottom: 27px;
+      @include max-screen(390px){
+        width: 85%;
+        margin: auto;
+      }
     }
     h5{
       font-family: 'Roboto',sans-serif;
@@ -186,9 +196,12 @@ header{
   padding: 76px 0 51px;
   img{
     @include max-screen(425px){
-      width: 100%;
+      width: 85%;
       align-items: center;
     }
+    @include max-screen(390px){
+       width: 85%;
+     }
   }
   h4{
     font-family: 'Roboto',sans-serif;
@@ -200,7 +213,11 @@ header{
     margin-bottom: 31px;
     @include max-screen(846px){
       margin-top: 30px;
-      font-size: 30px;
+      font-size: 26px;
+    }
+    @include max-screen(991px){
+      margin-top: 30px;
+      font-size: 26px;
     }
   }
   p{
@@ -211,8 +228,11 @@ header{
     line-height: 42px;
     color: #000000;
     margin-bottom: 40px;
+    @include max-screen(390px){
+      font-size: 23px;
+    }
     @include max-screen(846px){
-      font-size: 30px;
+      font-size: 23px;
     }
   }
   a{
@@ -226,6 +246,14 @@ header{
   }
   .pad-left{
     padding-left: 50px;
+  }
+}
+.portfolio-2{
+  img {
+    @include max-screen(390px) {
+      width: 85%;
+      margin-left: 50px;
+    }
   }
 }
 
@@ -244,7 +272,7 @@ header{
     text-align: center;
     color: #000000;
     margin-bottom: 69px;
-    @include max-screen(444px){
+    @include max-screen(446px){
       font-size: 30px;
     }
   }
@@ -265,7 +293,7 @@ header{
       font-size: 20px;
       margin-bottom: 60px;
     }
-    @include max-screen(444px){
+    @include max-screen(446px){
       font-size: 17px;
       margin-bottom: 20px;
     }

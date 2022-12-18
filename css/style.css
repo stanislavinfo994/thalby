@@ -5,6 +5,11 @@ header .soc_header {
   list-style: none;
   align-items: flex-start;
 }
+@media screen and (max-width: 390px) {
+  header .soc_header {
+    margin-left: -40px;
+  }
+}
 header .soc_header li:first-of-type {
   margin-right: 15px;
   padding-top: 8px;
@@ -131,6 +136,11 @@ header .navbar-brand {
   color: #000000;
   margin-bottom: 27px;
 }
+@media screen and (max-width: 390px) {
+  .best_sellers h2 {
+    font-size: 30px;
+  }
+}
 .best_sellers p {
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -146,6 +156,12 @@ header .navbar-brand {
 }
 .best_sellers .card img {
   margin-bottom: 27px;
+}
+@media screen and (max-width: 390px) {
+  .best_sellers .card img {
+    width: 85%;
+    margin: auto;
+  }
 }
 .best_sellers .card h5 {
   font-family: "Roboto", sans-serif;
@@ -187,8 +203,13 @@ header .navbar-brand {
 }
 @media screen and (max-width: 425px) {
   .portfolio img, .portfolio-2 img {
-    width: 100%;
+    width: 85%;
     align-items: center;
+  }
+}
+@media screen and (max-width: 390px) {
+  .portfolio img, .portfolio-2 img {
+    width: 85%;
   }
 }
 .portfolio h4, .portfolio-2 h4 {
@@ -203,7 +224,13 @@ header .navbar-brand {
 @media screen and (max-width: 846px) {
   .portfolio h4, .portfolio-2 h4 {
     margin-top: 30px;
-    font-size: 30px;
+    font-size: 26px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .portfolio h4, .portfolio-2 h4 {
+    margin-top: 30px;
+    font-size: 26px;
   }
 }
 .portfolio p, .portfolio-2 p {
@@ -215,9 +242,14 @@ header .navbar-brand {
   color: #000000;
   margin-bottom: 40px;
 }
+@media screen and (max-width: 390px) {
+  .portfolio p, .portfolio-2 p {
+    font-size: 23px;
+  }
+}
 @media screen and (max-width: 846px) {
   .portfolio p, .portfolio-2 p {
-    font-size: 30px;
+    font-size: 23px;
   }
 }
 .portfolio a, .portfolio-2 a {
@@ -231,6 +263,13 @@ header .navbar-brand {
 }
 .portfolio .pad-left, .portfolio-2 .pad-left {
   padding-left: 50px;
+}
+
+@media screen and (max-width: 390px) {
+  .portfolio-2 img {
+    width: 85%;
+    margin-left: 50px;
+  }
 }
 
 .features {
@@ -250,7 +289,7 @@ header .navbar-brand {
   color: #000000;
   margin-bottom: 69px;
 }
-@media screen and (max-width: 444px) {
+@media screen and (max-width: 446px) {
   .features h3 {
     font-size: 30px;
   }
@@ -277,7 +316,7 @@ header .navbar-brand {
     margin-bottom: 60px;
   }
 }
-@media screen and (max-width: 444px) {
+@media screen and (max-width: 446px) {
   .features p {
     font-size: 17px;
     margin-bottom: 20px;
