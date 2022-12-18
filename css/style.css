@@ -201,6 +201,10 @@ header .navbar-brand {
 .portfolio, .portfolio-2 {
   padding: 76px 0 51px;
 }
+.portfolio img, .portfolio-2 img {
+  height: 525px;
+  width: 385px;
+}
 @media screen and (max-width: 425px) {
   .portfolio img, .portfolio-2 img {
     width: 85%;
@@ -265,6 +269,9 @@ header .navbar-brand {
   padding-left: 50px;
 }
 
+.portfolio-2 img {
+  margin-left: 50px;
+}
 @media screen and (max-width: 390px) {
   .portfolio-2 img {
     width: 85%;

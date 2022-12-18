@@ -47,7 +47,6 @@ header{
     color: #1C1B1B;
   }
 }
-
 .main_banner{
   background-color: #F0EFEB;
   padding: 90px 0;
@@ -195,6 +194,8 @@ header{
 .portfolio, .portfolio-2{
   padding: 76px 0 51px;
   img{
+    height: 525px;
+    width: 385px;
     @include max-screen(425px){
       width: 85%;
       align-items: center;
@@ -250,13 +251,13 @@ header{
 }
 .portfolio-2{
   img {
+    margin-left: 50px;
     @include max-screen(390px) {
       width: 85%;
       margin-left: 50px;
     }
   }
 }
-
 .features{
   padding: 190px 0 52px;
   .row{
@@ -390,7 +391,6 @@ header{
     }
   }
 }
-
 .form_info {
   margin-top: 79px;
   margin-bottom: 88px;
@@ -444,7 +444,6 @@ header{
     }
   }
 }
-
 footer{
   padding: 51px 0 16px;
   background-color: #020202;
@@ -475,9 +474,6 @@ footer{
     }
   }
 }
-
-
-
 .text-center{
   font-family: 'Roboto',sans-serif;
   font-style: normal;
